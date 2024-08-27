@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body className="bg-backgroundColor max-w-[420px] mx-auto relative h-screen">
+      <body className="relative mx-auto h-screen max-w-[420px] bg-backgroundColor">
         <Header />
         {children}
       </body>

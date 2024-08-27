@@ -5,10 +5,7 @@ import React from "react";
 
 const CategoryHeader = () => {
   return (
-    <nav
-      className="py-0 px-5 flex flex-row justify-around w-full h-[46px]
-      leading-[46px] bg-black text-green border-b border-white"
-    >
+    <nav className="flex h-[46px] w-full flex-row justify-around border-b border-white bg-black px-5 py-0 leading-[46px] text-white">
       <Link href={"/"}>Home</Link>
       <Link href={"/category"}>Category</Link>
       <Link href={"#"}>Product</Link>
